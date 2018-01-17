@@ -1,7 +1,7 @@
 while True:
-	print("Enter '0' for exit.")
+	print("Enter '1' for exit.")
 	ch = input("Enter any character: ")
-	if ch == '0':
+	if ch == '1':
 		break
 	else:
 		if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
